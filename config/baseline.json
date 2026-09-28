@@ -1,0 +1,611 @@
+{
+  "format_version": "1.0",
+  "source": "OpenSCAP",
+  "findings": [
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_aide_installed",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_aide_build_database",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_partition_for_tmp",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_disable_user_list",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_gnome_gdm_disable_xdmcp",
+      "severity": "high",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_disable_automount",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_disable_automount_open",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_disable_autorun",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_screensaver_idle_delay",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_screensaver_lock_delay",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_screensaver_lock_enabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sudo_custom_logfile",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sudo_require_reauthentication",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_banner_enabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_login_banner_text",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_enabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_enforce_root",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_remember",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_pwhistory_use_authtok",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_deny",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_enabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_passwords_pam_faillock_unlock_time",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_dcredit",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_dictcheck",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_difok",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_enforce_root",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_enforcing",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_lcredit",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_maxrepeat",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_maxsequence",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_minclass",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_minlen",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_ocredit",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_pam_ucredit",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_account_disable_post_pw_expiration",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_maximum_age_login_defs",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_password_set_max_life_existing",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_no_empty_passwords_unix",
+      "severity": "high",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_ensure_pam_wheel_group_empty",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_no_invalid_shell_accounts_unlocked",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_use_pam_wheel_group_for_su",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_tmout",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permission_user_init_files",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_umask_etc_bashrc",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_umask_etc_login_defs",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_accounts_umask_etc_profile",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_apparmor-utils_installed",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_all_apparmor_profiles_in_enforce_complain_mode",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_grub2_enable_apparmor",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_grub2_password",
+      "severity": "high",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_grub2_uefi_password",
+      "severity": "high",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_journald_forward_to_syslog",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_ra",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_accept_source_route",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_all_forwarding",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_ra",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv6_conf_default_accept_source_route",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_accept_source_route",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_log_martians",
+      "severity": "unknown",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_rp_filter",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_secure_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_accept_source_route",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_log_martians",
+      "severity": "unknown",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_rp_filter",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_secure_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_tcp_syncookies",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_all_send_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_conf_default_send_redirects",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_net_ipv4_ip_forward",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_nftables_enabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_nftables_rules_permanent",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_nftables_base_chain",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_nftables_loopback_traffic",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_nftables_table",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_ufw_removed",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_check_ufw_active",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_ufw_default_rule",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_ufw_loopback_traffic",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_ufw_rules_for_open_ports",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_bluetooth_disabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_permissions_local_var_log",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_groupownerships_var_log",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_ownerships_var_log",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_kernel_module_cramfs_disabled",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_kernel_module_freevxfs_disabled",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_kernel_module_hfs_disabled",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_kernel_module_hfsplus_disabled",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_kernel_module_jffs2_disabled",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_kernel_module_usb-storage_disabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nodev",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_mount_option_dev_shm_noexec",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_mount_option_dev_shm_nosuid",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_disable_users_coredumps",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_fs_suid_dumpable",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sysctl_kernel_randomize_va_space",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_apport_disabled",
+      "severity": "unknown",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_avahi_removed",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_avahi-daemon_disabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_cron_d",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_cron_daily",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_cron_hourly",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_cron_monthly",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_cron_weekly",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_crontab",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_at_allow_exists",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_cron_allow_exists",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_ftp_removed",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_tnftp_removed",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_openldap-clients_removed",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_timesyncd_configured",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_rsync_removed",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_rsyncd_disabled",
+      "severity": "medium",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_inetutils-telnet_removed",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_telnet_removed",
+      "severity": "low",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_package_cups_removed",
+      "severity": "unknown",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_cups_disabled",
+      "severity": "unknown",
+      "status": "fail"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sshd_limit_user_access",
+      "severity": "unknown",
+      "status": "fail"
+    }
+  ]
+}

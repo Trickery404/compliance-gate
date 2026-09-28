@@ -1,0 +1,13 @@
+policy:
+  name: invalid-policy
+  version: "1.0"
+  baseline_mode: unsupported_mode
+
+rules:
+  default:
+    on_fail: warn
+
+  severity:
+    high: fail
+
+exceptions: []

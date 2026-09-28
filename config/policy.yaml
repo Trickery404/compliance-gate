@@ -1,0 +1,21 @@
+policy:
+  name: ubuntu-production-compliance
+  version: "1.0"
+  baseline_mode: fail_on_new
+
+rules:
+  default:
+    on_fail: warn
+
+  severity:
+    high: fail
+    medium: warn
+    low: warn
+    unknown: fail
+
+exceptions:
+  - id: xccdf_org.ssgproject.content_rule_package_aide_installed
+    expires: "2026-12-31"
+    justification: >
+      AIDE deployment is scheduled for the next hardened image release.
+      The finding remains visible in the evidence report until remediation.

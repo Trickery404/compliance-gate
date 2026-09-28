@@ -1,0 +1,16 @@
+policy:
+  name: ubuntu-compliance-fail-all
+  version: "1.0"
+  baseline_mode: fail_all
+
+rules:
+  default:
+    on_fail: warn
+
+  severity:
+    high: fail
+    medium: fail
+    low: warn
+    unknown: fail
+
+exceptions: []

@@ -1,0 +1,220 @@
+{
+  "metadata": {
+    "prototype_version": "0.1.0",
+    "scanner": "OpenSCAP",
+    "policy_name": "ubuntu-compliance-fail-on-new",
+    "policy_version": "1.0",
+    "generated_at": "2026-09-28T11:36:05.170636+00:00",
+    "input_hashes": {
+      "results": "29076ecb231a16b3be4a28c70fe432a8d9134c8ebc74c066ddfc168846a7eee2",
+      "policy": "18bba8d83affbc96e36f5650d7f1c2c2f93046dda76100ff10a0b1bddbbd4fc2",
+      "baseline": "99d0664b0d69b371e042348933982f5604ca74349d9618da453c274853b84b51"
+    }
+  },
+  "inputs": {
+    "results": "/home/student/compliance-evidence/hardened-run/restored-run/scan-results.xml",
+    "policy": "policy/tests/fail-on-new.yaml",
+    "baseline": "/home/student/compliance-evidence/hardened-run/baseline/approved-baseline.json"
+  },
+  "summary": {
+    "all_results": 648,
+    "evaluated_results": 343,
+    "new": 0,
+    "existing": 14,
+    "resolved": 0,
+    "decision": "pass",
+    "decision_reason": "No new blocking findings were detected."
+  },
+  "comparison": {
+    "new": [],
+    "existing": [
+      {
+        "id": "xccdf_org.ssgproject.content_rule_aide_build_database",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_login_banner_text",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_file_permissions_sshd_drop_in_config",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_file_permissions_var_log_gdm3",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_file_permissions_var_log_sssd",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_nftables_ensure_default_deny_policy",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_partition_for_tmp",
+        "severity": "low",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_permissions_local_var_log",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_root_path_all_dirs",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_service_timesyncd_configured",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_set_nftables_base_chain",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_set_nftables_loopback_traffic",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_set_nftables_table",
+        "severity": "medium",
+        "status": "fail",
+        "is_evaluated": true
+      },
+      {
+        "id": "xccdf_org.ssgproject.content_rule_sshd_limit_user_access",
+        "severity": "unknown",
+        "status": "fail",
+        "is_evaluated": true
+      }
+    ],
+    "resolved": []
+  },
+  "decision": "pass",
+  "reason": "No new blocking findings were detected.",
+  "evaluated_findings": [
+    {
+      "id": "xccdf_org.ssgproject.content_rule_aide_build_database",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_dconf_gnome_login_banner_text",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_sshd_drop_in_config",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_var_log_gdm3",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_file_permissions_var_log_sssd",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_nftables_ensure_default_deny_policy",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_partition_for_tmp",
+      "severity": "low",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_permissions_local_var_log",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_root_path_all_dirs",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_service_timesyncd_configured",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_nftables_base_chain",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_nftables_loopback_traffic",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_set_nftables_table",
+      "severity": "medium",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    },
+    {
+      "id": "xccdf_org.ssgproject.content_rule_sshd_limit_user_access",
+      "severity": "unknown",
+      "status": "fail",
+      "classification": "existing",
+      "action": "pass"
+    }
+  ]
+}

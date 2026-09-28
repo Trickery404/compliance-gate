@@ -1,0 +1,16 @@
+policy:
+  name: ubuntu-compliance-fail-on-new
+  version: "1.0"
+  baseline_mode: fail_on_new
+
+rules:
+  default:
+    on_fail: warn
+
+  severity:
+    high: fail
+    medium: warn
+    low: warn
+    unknown: fail
+
+exceptions: []

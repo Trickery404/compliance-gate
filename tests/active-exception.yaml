@@ -1,0 +1,21 @@
+policy:
+  name: ubuntu-compliance-active-exception
+  version: "1.0"
+  baseline_mode: fail_on_new
+
+rules:
+  default:
+    on_fail: warn
+
+  severity:
+    high: fail
+    medium: warn
+    low: warn
+    unknown: fail
+
+exceptions:
+  - id: xccdf_org.ssgproject.content_rule_package_vsftpd_removed
+    expires: "2026-12-31"
+    justification: >
+      Temporary exception for the controlled migration test. The finding is
+      retained in the evidence report and must be reviewed before expiration.
